@@ -11,7 +11,9 @@ jobs:
 
     steps:
       - name: just hi
-        run: "hi hello"
+        run: echo "hi hello"
+      - name: date
+        run: pwd
       
     
   
