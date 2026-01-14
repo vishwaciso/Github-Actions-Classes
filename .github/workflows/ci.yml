@@ -1,20 +1,17 @@
-name: simple ci yaml file
+name: simple ci 
 
 on:
-  push:
-    branches:
-      - main
+   push:
+     branches:
+       - main
 
 jobs:
   simple-job:
     runs-on: ubuntu-latest
 
     steps:
-      - name: just hi
-        run: echo "hi hello"
-      - name: date
+      - name: step1
+        run: echo "hello welcome"
+      - name: step2
         run: pwd
       
-    
-  
-        
